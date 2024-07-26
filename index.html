@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>романтик магазин цветы</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/ро.png" alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="m-0 text-primary">Romantic</h1>
+
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#header" class="nav-item nav-link active">Басты бет</a>
+                        <a href="#about" class="nav-item nav-link">Туралы</a>
+                        <a href="#Flower" class="nav-item nav-link">Гүлдер</a>
+                        <a href="#client" class="nav-item nav-link">Пікірлер</a>
+                        <a href="#contact" class="nav-item nav-link">Контакты</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div id="header" class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Біздің <span class="text-primary">Romantic
+                            дүкенінде</span> керек
+                        гүлдеріңізді таңдаңыз</h1>
+                    <p class="animated fadeIn mb-4 pb-2">Гүлдер - жұмақтың жерде қалған қалдығы
+                    </p>
+                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Букетті таңдау</a>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/карусель.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="/img/c-WwJODD2OY.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0 py-3" placeholder="Гүлді іздеу">
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Ұқсас товар</option>
+                                    <option value="1">Тәттілер</option>
+                                    <option value="2">Жұмсақ ойыншықтар </option>
+                                    <option value="3">Ашық хаттар </option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Мекен жай </option>
+                                    <option value="1">13м-н 100жк "Нұрсая"</option>
+                                    <option value="2">Уалиханова 97</option>
+                                    <option value="3">Толқын базары №12</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100 py-3">Іздеу</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Гүлдер туралы</h1>
+                    <p>Гүлдердің өз тілі бар. Олар үндемегенімен, түсіне білгенге көп сыр шертеді
+
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Пиондар </h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Гипсофилалар</h6>
+                                <span>Қасиеттері </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Розалар</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Раушандар</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Түймедақ</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Гортензия</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Қызғалдақ</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/иконки цветы.png" alt="Icon">
+                                </div>
+                                <h6>Орхидея</h6>
+                                <span>Қасиеттері</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/пионы.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Пионды бір жыл баптап, он күн сүйесің</h1>
+                        <p class="mb-4">Көп халық пионның бірнеше дертке ем болатын сиқырлы күшіне сенеді.
+                            1800 жылдары бұл гүлді тек емдік мақсатта қолданған. Емшінің барлығы дәрілерге міндетті
+                            түрде
+                            пион тамырын араластырған. Ол адамды тыныштандырып, ұйқысын қалыпқа келтіреді. </p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Байлық символы</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Бақытты отбасы мен адалдықтың нышаны</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Түрлі ауруларға шипа</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Тағы да...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Property List Start -->
+        <div id="Flower" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3">Біздің гүлдер </h1>
+                            <p>Адамдар гүл сыйлау арқылы өзінің кез келген сезімін білдіретін гүлдер тілі болған.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                            <li class="nav-item me-2">
+                                <a class="btn btn-outline-primary active" data-bs-toggle="pill"
+                                    href="#tab-1">Букеттер</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/гулдер 1.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Комбо</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Букет "Жылы естелік"</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">15000</h5>
+                                        <a class="d-block h5 mb-2" href="">Қасына тәтті қосылған комбо букет</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/гулдер 2.jpeg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Ең таңдаулы</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Букет "Джульеттаға хат"</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">17000</h5>
+                                        <a class="d-block h5 mb-2" href="">Романтикалық букет</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/орхидея 3.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Жабық өсімдік</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            "Орхидея" </div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">11500</h5>
+                                        <a class="d-block h5 mb-2" href="">"10 см үй гүлі"</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/гул 4.jpeg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Ең таңдаулы</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Букет "Романтикалық симфония"</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">10000</h5>
+                                        <a class="d-block h5 mb-2" href="">8 дана гипсофила гүлі</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/гул 5.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Ең таңдаулы</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Букет "Сен және мен"</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">15000</h5>
+                                        <a class="d-block h5 mb-2" href="">101 роза</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/гүл 6.jpeg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            комбо</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Букет "Жылы сезім"</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">18000</h5>
+                                        <a class="d-block h5 mb-2" href="">Роза және пион гүлі</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                                <a class="btn btn-primary py-3 px-5" href="">Тағы да қарау</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            For Sell</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Appartment</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$12,345</h5>
+                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York,
+                                            USA</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            For Rent</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Villa</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <h5 class="text-primary mb-3">$12,345</h5>
+                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York,
+                                            USA</p>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            For Sell</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Office</div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Rent</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Building</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Sell</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Home</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Rent</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Shop</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Sell</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Appartment</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Rent</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Villa</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Sell</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Office</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Rent</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Building</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Sell</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Home</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                For Rent</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Shop</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <h5 class="text-primary mb-3">$12,345</h5>
+                                            <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New
+                                                York,
+                                                USA</p>
+                                        </div>
+                                        <div class="d-flex border-top">
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
+                                            <small class="flex-fill text-center border-end py-2"><i
+                                                    class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                            <small class="flex-fill text-center py-2"><i
+                                                    class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Property List End -->
+
+
+            <!-- Call to Action Start -->
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="bg-light rounded p-3">
+                        <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                    <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
+                                </div>
+                                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="mb-4">
+                                        <h1 class="mb-3">Менеджермен байланысу</h1>
+                                        <p>
+                                        </p>
+                                    </div>
+                                    <a href="" class="btn btn-primary py-3 px-4 me-2"><i
+                                            class="fa fa-phone-alt me-2"></i>Хабарласу</a>
+                                    <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Хат
+                                        жазу
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action End -->
+
+
+            <!-- Team Start -->
+
+
+
+            <!-- Testimonial Start -->
+            <div id="client" class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <h1 class="mb-3">Біздің клиенттеріміздің пікірлері!</h1>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Барлық гүл шоқтары керемет болды. Өте кәсіби және де жан тәнімен жиналғаны көрініп
+                                    тұр.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg"
+                                        style="width: 45px; height: 45px;">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Айгерім</h6>
+                                        <small></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Барлығы мен ойлағандай болды. Маған жақсы көмек көрсетіп жеңілдік жасады.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg"
+                                        style="width: 45px; height: 45px;">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Арсен</h6>
+                                        <small></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Букет өте әдемі болды, анама өте қатты ұнады.
+                                    Бағасына да тұрарлық </p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg"
+                                        style="width: 45px; height: 45px;">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Нұржан</h6>
+                                        <small></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+
+            <!-- Footer Start -->
+            <div id="contact" class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
+                data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Бізбен байланысу</h5>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Уалиханова.Б 97</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+7778 487 0258</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>moldir.10@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Сілтемелер</h5>
+                            <a class="btn btn-link text-white-50" href="">Біз туралы</a>
+                            <a class="btn btn-link text-white-50" href="">Бізбен хабарласу</a>
+                            <a class="btn btn-link text-white-50" href="">Біздің қызмет</a>
+
+                            <a class="btn btn-link text-white-50" href="">Шарттар</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4">Галерея</h5>
+                            <div class="row g-2 pt-2">
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул.jpeg" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул2.jpeg" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул3.jpeg" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул 4.jpeg" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул5.jpeg" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/гул6.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-white mb-4"></h5>
+                            <p></p>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#">"Romantic" гүлдер дүкені</a>
+
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                Дизайн <a class="border-bottom" href="https://htmlcodex.com">Мөлдір.И</a>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="">Басты бет</a>
+                                    <a href="">Файлдар</a>
+                                    <a href="">Көмек</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
